@@ -7,20 +7,21 @@ const Header = () => {
         <div>
             <Nav className="justify-content-center text-secondary  m-3" activeKey="/home">
                 <Nav.Item>
-                    <Link className='navItems' to="/home">Active</Link>
+                    <Link className='navItems' to="/home">Home</Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Link className='navItems' to="/reviews">Reviews</Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Link className='navItems' to="/about">About</Link>
+                    <Link className='navItems' to="/dashboards">Dashboards</Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Link className='navItems' to="/blogs">Blogs</Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Link className='navItems' to="/dashboards">Dashboards</Link>
+                    <Link className='navItems' to="/about">About</Link>
                 </Nav.Item>
+
 
 
             </Nav>
