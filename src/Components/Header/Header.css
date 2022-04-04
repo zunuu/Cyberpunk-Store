@@ -1,0 +1,12 @@
+.navItems {
+    color: rgba(48, 46, 46, 0.808) !important;
+    font-size: 17px;
+
+
+    border-bottom: 2px solid transparent;
+}
+
+.navItems:hover {
+    color: rgb(196, 0, 0) !important;
+    border-bottom: 2px solid rgb(211, 0, 0);
+}
