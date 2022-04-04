@@ -1,6 +1,6 @@
 .chart {
     background-color: rgba(65, 107, 121, 0.062);
-    padding: 100px 200px;
+    padding: 100px;
     border-radius: 50px;
     transition: .5s;
 }

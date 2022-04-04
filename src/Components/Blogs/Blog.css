@@ -1,0 +1,24 @@
+.context {
+    background-color: rgba(0, 128, 128, 0.226);
+    border-radius: 40px;
+}
+
+.semantic {
+    border-radius: 40px;
+    background-color: rgba(255, 0, 0, 0.281);
+}
+
+.elements {
+    border-radius: 40px;
+    background-color: rgba(128, 0, 128, 0.267);
+}
+
+p {
+    font-size: larger;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+h2 {
+    color: rgba(48, 48, 48, 0.932);
+}

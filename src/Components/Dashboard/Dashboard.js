@@ -41,28 +41,26 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='d-flex justify-content-center mt-5'>
-            <div>
-                <div className='chart mt-4'>
-                    <LineChart width={400} height={450} data={data}>
-                        <Line type="monotone" dataKey="sell" stroke="#1000d8" />
-                        <XAxis dataKey="month" />
-                        <YAxis dataKey="investment" />
-                        <Line type="monotone" dataKey="revenue" stroke="#8700d8" />
+        <div className='container-fluid d-flex row mt-5 justify-content-center'>
+            <div className='chart col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 mt-4'>
+                <LineChart className='mx-auto' width={350} height={400} data={data}>
+                    <Line type="monotone" dataKey="sell" stroke="#1000d8" />
+                    <XAxis dataKey="month" />
+                    <YAxis dataKey="investment" />
+                    <Line type="monotone" dataKey="revenue" stroke="#8700d8" />
 
-                        <Tooltip />
-                    </LineChart>
-                    <h4 className='pt-5'>Sell vs Revenue</h4>
-                </div>
-                <div className='chart mt-4'>
+                    <Tooltip />
+                </LineChart>
+                <h4 className='pt-5'>Sell vs Revenue</h4>
+            </div>
+            <div className='chart col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12  mt-4'>
 
-                    <PieChart width={400} height={400}>
-                        <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={80} fill="#8044d8" />
-                        <Pie data={data} dataKey="investment" cx="50%" cy="50%" innerRadius={100} outerRadius={130} fill="#008080" label />
-                        <Tooltip />
-                    </PieChart>
-                    <h4 className='pt-5'>Investment vs Revenue</h4>
-                </div>
+                <PieChart className='mx-auto' width={350} height={400}>
+                    <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={80} fill="#8044d8" />
+                    <Pie data={data} dataKey="investment" cx="50%" cy="50%" innerRadius={100} outerRadius={130} fill="#008080" label />
+                    <Tooltip />
+                </PieChart>
+                <h4 className='pt-5'>Investment vs Revenue</h4>
             </div>
         </div>
     );
