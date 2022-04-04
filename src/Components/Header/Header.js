@@ -1,26 +1,30 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import "./Header.css"
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
             <Nav className="justify-content-center text-secondary  m-3" activeKey="/home">
                 <Nav.Item>
-                    <Nav.Link className='navItems' href="/home">Active</Nav.Link>
+                    <Link className='navItems' to="/home">Active</Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link className='navItems' href="/Reviews">Reviews</Nav.Link>
+                    <Link className='navItems' to="/reviews">Reviews</Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link className='navItems' href="/About">About</Nav.Link>
+                    <Link className='navItems' to="/about">About</Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link className='navItems' href="/Blogs">Blogs</Nav.Link>
+                    <Link className='navItems' to="/blogs">Blogs</Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Link className='navItems' to="/dashboards">Dashboards</Link>
                 </Nav.Item>
 
 
             </Nav>
-        </div>
+        </div >
     );
 };
 
