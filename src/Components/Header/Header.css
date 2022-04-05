@@ -7,9 +7,11 @@
     margin: 0px 50px;
     border-bottom: 2px solid rgba(153, 153, 153, 0.123);
     transition: 0.5s;
+
 }
 
 .navItems:hover {
     color: rgb(196, 0, 0) !important;
-    border-bottom: 2px solid rgb(211, 0, 0);
+    border-bottom: 2px solid rgb(100, 20, 20);
+    border-radius: 20%;
 }

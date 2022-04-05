@@ -4,7 +4,7 @@ import './User.css'
 const User = (props) => {
     const { name, review, rating, image } = props.user;
     return (
-        <div className=' m-0   col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-5 pt-5'>
+        <div className=' m-0   col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-5 mb-3 pt-5'>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" className='card-image' src={image} />
                 <Card.Body className='bg-info bg-opacity-10'>

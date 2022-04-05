@@ -4,17 +4,33 @@
     border-radius: 30px;
 }
 
+.siteName h1 {
+    width: 50%;
+    color: rgb(143, 143, 143);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    top: 0px;
+    border-bottom: 5px solid rgba(92, 19, 19, 0.849);
+    border-radius: 12%;
+}
+
+.siteName span {
+    color: rgba(92, 19, 19, 0.849)
+}
+
 .dip {
     color: gray;
     font-family: monospace;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 500;
 }
 
 .sip {
     color: black;
     font-family: monospace;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 600;
 }
 
@@ -32,4 +48,21 @@
 .sip-now-btn:hover {
     background-color: chocolate;
     color: white;
+}
+
+.allReviewsBtn {
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.767);
+    background-color: rgb(217, 255, 253);
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.allReviewsBtn:hover {
+    color: white;
+    background-color: rgb(255, 102, 0);
 }
