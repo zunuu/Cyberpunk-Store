@@ -25,7 +25,7 @@ const Home = () => {
                         <h2 className='dip'>Your Next Dip</h2>
                         <h2 className='sip'>Your Best Sip</h2>
                         <p className='w-50'>
-                            Just fade away your monotony in a single sip.A great Coffee contain huge amount of cafeine {"&"} helps to  Dip dive into the ultimate freshness
+                            Just fade away your monotony in a single sip.Great Coffee Beans contain huge amount of cafeine {"&"} helps to  Dip dive into the ultimate freshness
                         </p>
                         <button className='sip-now-btn'>
                             Buzz Now!
